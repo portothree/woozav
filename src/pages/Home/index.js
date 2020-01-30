@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 
+import "./style.scss";
+
+import Card from "../../components/Card";
+
 export default function Home() {
 	const [users, setUsers] = useState([]);
 
@@ -18,12 +22,14 @@ export default function Home() {
 	});
 
 	return (
-		<main>
-			<h1>Wooza</h1>
+		<main className="home">
+			<h1>Listagem de usuários</h1>
 
-			<ul>
+			<ul className="home__users-list">
 				{users.map(user => (
-					<li key={user.id}>{user.full_name}</li>
+					<li key={user.id}>
+						<Card userInfo={user} />
+					</li>
 				))}
 			</ul>
 		</main>
