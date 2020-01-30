@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import './styles/base/global.css';
+import "./styles/base/global.css";
+
+import Home from "./pages/Home";
 
 function App() {
-	return (
-		<main>
-			<h1>Wooza</h1>
-		</main>
-	);
+	return <Home />;
 }
 
 export default App;
