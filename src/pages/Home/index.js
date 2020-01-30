@@ -23,7 +23,7 @@ export default function Home() {
 
 	return (
 		<main className="home">
-			<h1>Listagem de usuários</h1>
+			<h1 className="home__title">Listagem de usuários</h1>
 
 			<ul className="home__users-list">
 				{users.map(user => (

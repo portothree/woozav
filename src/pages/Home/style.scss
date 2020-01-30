@@ -1,5 +1,14 @@
+@import "../../styles/abstracts/mixins";
+
 .home {
+	&__title {
+		text-align: center;
+	}
+
 	&__users-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 		list-style: none;
 	}
 }
