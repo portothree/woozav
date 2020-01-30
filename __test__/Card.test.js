@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Card from "../src/components/Card";
-
 import { render, cleanup } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
+
+import Card from "../src/components/Card";
 
 const user = {
 	id: 1,

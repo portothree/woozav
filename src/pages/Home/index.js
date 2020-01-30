@@ -19,7 +19,7 @@ export default function Home() {
 		}
 
 		fetchData();
-	});
+	}, []);
 
 	return (
 		<main className="home">
