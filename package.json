@@ -1,0 +1,13 @@
+{
+  "name": "woozav",
+  "version": "0.1.0",
+  "scripts": {
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.2",
+  }
+}

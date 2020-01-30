@@ -1,0 +1,29 @@
+// breakpoints
+
+// mobile ladscape
+@mixin viewport-4 {
+	@media (min-width: 480px) {
+		@content;
+	}
+}
+
+// small tablets portrait
+@mixin viewport-7 {
+	@media (min-width: 768px) {
+		@content;
+	}
+}
+
+// tablets landscape and small desktops
+@mixin viewport-9 {
+	@media (min-width: 992px) {
+		@content;
+	}
+}
+
+// large tablets and desktops
+@mixin viewport-12 {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
