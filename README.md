@@ -30,10 +30,10 @@ woozav/
 ├── public/                       # index.html
 │
 ├── src/
-│    ├── styles/              		# Global styles and Sass mixins
+│    ├── styles/                  # Global styles and Sass mixins
 │    ├── components/              # React components folder
-│    ├── pages/              			# Pages folder
-│    ├── App.js               		# Main component
+│    ├── pages/                   # Pages folder
+│    ├── App.js                   # Main component
 │    └── index.js
 |
 └── package.json                  # node packages
